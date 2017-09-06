@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Monitoria - Programação 1</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:image" content="http://cin.ufpe.br/~vals/monitoria/app/assets/images/coverfacebook.jpg" />
+		<link rel="shortcut icon" href="app/assets/images/"/>
+		<link rel="stylesheet" href="app/assets/css/reset.css" />
+		<link rel="stylesheet" href="app/assets/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="app/assets/lib/bootstrap/css/bootstrap.min.css">
+		 <link rel="stylesheet" type="text/css" href="app/assets/lib/bootstrap/css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="app/assets/css/main.css">
+
+	</head>
+	<body>
+		<!-- NAV -->
+		<nav>
+			<ul>
+				<li><img src="app/assets/images/logo.png" width="180px"></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="app/modules/notas/notas.html">Notas</a></li>
+				<li><a href="app/modules/cronograma/cronograma.html">Cronograma</a></li>
+				<li><a href="app/modules/listas/listas.html">Listas</a></li>
+				<li><a href="app/modules/material/material.html">Material Complementar</a></li>
+			</ul>
+		</nav>
+
+		<!-- NAV MOBILE -->
+		<div class="veu"></div>
+		<div class="menu menu-closed">
+		<div class="mobile">
+			<ul>
+				<li><img src="modules/images/logo.png" width="180px"></li>
+				<li><i id="menu-mobile" class="fa fa-bars" aria-hidden="true"></i></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="app/modules/notas/notas.html">Notas</a></li>
+				<li><a href="app/modules/cronograma/cronograma.html">Cronograma</a></li>
+				<li><a href="app/modules/listas/listas.html">Listas</a></li>
+				<li><a href="app/modules/material/material.html">Material Complementar</a></li>
+			</ul>
+		</div>
+		</div>
+		<!-- FIX -->
+		<div class="fix">.</div>
+
+		<!-- DECORAÇÃO -->
+		<img id="bolha2" src="app/assets/images/bolhas2.png" width="100px">
+		<img id="bolha1"src="app/assets/images/bolhas.png" width="100px">
+
+		<!-- BODY -->
+		<div class="main">
+
+			<!-- HEADER -->
+			<div class="header">
+				<img id="bolha1"src="app/assets/images/bolhas.png" width="100px">
+				<div class="header-container text-center">
+					<h1>Bem Vindo!</h1>
+					<p>Este é o site da Monitoria de <span id="cadeira">Programação I</span> do curso de S.I.  Este espaço foi criado para você consultar:
+					notas, cronogramas, listas, material complementar e contatos dos monitores. Além disso, você pode contar com o <a href="https://facebook.com/groups/p120172">grupo no Facebook</a> para se inteirar dos avisos da monitoria.</p>
+				</div>
+			</div>
+
+			<!-- MAIN CONTAINER / MONITORES -->
+			<div class="main-container">
+				<h2>Monitores</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6 blue">
+							<img src="app/assets/images/monitores/adriano.jpg" data-target="#monitor1" data-toggle="modal"><p class="monitor-hover">Adriano</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 red">
+							<img src="app/assets/images/monitores/arthur.jpg" data-target="#monitor2" data-toggle="modal"><p class="monitor-hover">Arthur</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 green">
+							<img src="app/assets/images/monitores/emerson.jpg" data-target="#monitor3" data-toggle="modal"><p class="monitor-hover">Emerson</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 yellow">
+							<img src="app/assets/images/monitores/jose-gui.jpg" data-target="#monitor4" data-toggle="modal"><p class="monitor-hover">José Guilherme</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 green">
+							<img src="app/assets/images/monitores/matheus.jpg" data-target="#monitor5" data-toggle="modal"><p class="monitor-hover">Matheus</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 yellow">
+							<img src="app/assets/images/monitores/tomaz.jpg" data-target="#monitor6" data-toggle="modal"><p class="monitor-hover">Tomaz</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 blue">
+							<img src="app/assets/images/monitores/thales.jpg" data-target="#monitor7" data-toggle="modal"><p class="monitor-hover">Thales</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 red">
+							<img src="app/assets/images/monitores/Ricarth.jpg" data-target="#monitor8" data-toggle="modal"><p class="monitor-hover">Ricarth</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 yellow">
+							<img src="app/assets/images/monitores/samir.jpg" data-target="#monitor9" data-toggle="modal"><p class="monitor-hover">Samir</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 blue">
+							<img src="app/assets/images/monitores/vitorc.jpg" data-target="#monitor10" data-toggle="modal"><p class="monitor-hover">Vitor Cardim</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 red">
+							<img src="app/assets/images/monitores/vitorl.jpg" data-target="#monitor11" data-toggle="modal"><p class="monitor-hover">Vitor Lima</p></div>
+						<div class="col-lg-3 col-md-4 col-sm-6 green">
+							<img src="app/assets/images/monitores/lucas.jpg" data-target="#monitor12" data-toggle="modal"><p class="monitor-hover">Lucas</p></div>
+					</div>
+				</div>
+			</div>
+			<!-- MODAIS - MONITORES -->
+			<!-- MONITOR 1 -->
+			<div class="modal fade" id="monitor1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/adriano.jpg" width="200px;">
+							<h1>ADRIANO</h1><br>
+							<p>E-mail: ajbvn@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/adrianojbv" target="_blank">fb.com/adrianojbv</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			  <!-- MONITOR 2 -->
+			<div class="modal fade" id="monitor2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/arthur.jpg" width="200px;">
+							<h1>ARTHUR</h1><br>
+							<p>E-mail: aomm@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/tuuxu" target="_blank">fb.com/tuuxu</a></p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			  <!-- MONITOR 3 -->
+			<div class="modal fade " id="monitor3">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/emerson.jpg" width="200px;">
+							<h1>EMERSON</h1><br>
+							<p>E-mail: evfl@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/emerson.evfl" target="_blank">fb.com/emerson.evfl</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			  <!-- MONITOR 4 -->
+			<div class="modal fade " id="monitor4">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/jose-gui.jpg" width="200px;">
+							<h1>JOSÉ GUILHERME </h1><br>
+							<p>E-mail: jgnvs@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/josguilherme.17" target="_blank">fb.com/josguilherme.17</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			  <!-- MONITOR 5 -->
+			<div class="modal fade " id="monitor5">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/matheus.jpg" width="200px;">
+							<h1>MATHEUS</h1><br>
+							<p>E-mail: mgh@cin.ufpe.br</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- MONITOR 6 -->
+			<div class="modal fade " id="monitor6">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/tomaz.jpg" width="200px;">
+							<h1>JOSE TOMAZ</h1><br>
+							<p>E-mail: jtgl@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/jose.tomaz.908" target="_blank">fb.com/jose.tomaz.908</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 7 -->
+			<div class="modal fade " id="monitor7">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/thales.jpg" width="200px;">
+							<h1>THALES</h1><br>
+							<p>E-mail: trm3@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/MonteiroThales" target="_blank">fb.com/MonteiroThales</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 8 -->
+			<div class="modal fade " id="monitor8">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/Ricarth.jpg" width="200px;">
+							<h1>RICARTH </h1><br>
+							<p>E-mail: rrsl@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/ricarth.lima" target="_blank">fb.com/ricarth.lima</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 9 -->
+			<div class="modal fade " id="monitor9">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/samir.jpg" width="200px;">
+							<h1>SAMIR</h1><br>
+							 <p>E-mail: svaf2@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/samir.ferreira.376" target="_blank">fb.com/samir.ferreira.376</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 10 -->
+			<div class="modal fade " id="monitor10">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/vitorc.jpg" width="200px;">
+							<h1>VITOR CARDIM</h1><br>
+							<p>E-mail: vcm3@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/VitorC.Menezes" target="_blank">fb.com/VitorC.Menezes</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 11 -->
+			<div class="modal fade" id="monitor11">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/vitorl.jpg" width="200px;">
+							<h1>VITOR LIMA</h1><br>
+							<p>E-mail: vals@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/rotivl" target="_blank">fb.com/rotivl</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- MONITOR 12 -->
+			<div class="modal fade " id="monitor12">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<div class="modal-body">
+							<img src="app/assets/images/monitores/lucas.jpg" width="200px;">
+							<h1>LUCAS</h1><br>
+							<p>E-mail: lsa2@cin.ufpe.br</p>
+							<p>Facebook: <a href="https://www.facebook.com/lucas.indiobelga" target="_blank">fb.com/lucas.indiobelga</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+		<!-- SCRIPTS -->
+		<script src="app/assets/scripts/js/menuMobile.js"> </script>
+		<script src='app/assets/lib/bootstrap/js/jquery.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script  src='app/assets/lib/bootstrap/js/bootstrap.js'></script>
+
+</html>
